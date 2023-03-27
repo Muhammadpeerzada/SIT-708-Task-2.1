@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="my_unit_converter">My Unit Converter</string>
+    <string name="my_app_icon">My App Icon</string>
+    <string-array name="weight_units">
+        <item>Grams</item>
+        <item>Ounce</item>
+        <item>Pound</item>
+        <item>Kilogram</item>
+        <item>Ton</item>
+    </string-array>
+</resources>

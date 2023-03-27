@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/temp_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:id="@+id/ll_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/my_app_icon"
+            android:contentDescription="@string/my_app_icon" />
+
+        <TextView
+            android:id="@+id/heading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/my_unit_converter"
+            android:textColor="@color/textColor"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_measures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/ll_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/length"
+                android:contentDescription="Temperature icon" />
+
+            <TextView
+                android:id="@+id/length_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Length"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/textColor"
+                android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/weight"
+                    android:contentDescription="Temperature icon" />
+
+                <TextView
+                    android:id="@+id/weight_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Weight"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/temp"
+                    android:contentDescription="Temperature icon" />
+
+                <TextView
+                    android:id="@+id/temp_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
